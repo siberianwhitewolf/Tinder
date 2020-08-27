@@ -3,29 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA681121BF1220C12BC5FFE /* Pods_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E806E3BB0FFAB4882501C /* Pods_Tinder.framework */; };
 		E107DD8624E08D2C007A682E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DD8524E08D2C007A682E /* AppDelegate.swift */; };
 		E107DD8824E08D2C007A682E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DD8724E08D2C007A682E /* SceneDelegate.swift */; };
-		E107DD8A24E08D2C007A682E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DD8924E08D2C007A682E /* ViewController.swift */; };
 		E107DD8D24E08D2C007A682E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E107DD8B24E08D2C007A682E /* Main.storyboard */; };
 		E107DD9024E08D2C007A682E /* Tinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E107DD8E24E08D2C007A682E /* Tinder.xcdatamodeld */; };
 		E107DD9224E08D2F007A682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E107DD9124E08D2F007A682E /* Assets.xcassets */; };
 		E107DD9524E08D2F007A682E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E107DD9324E08D2F007A682E /* LaunchScreen.storyboard */; };
+		E107DDA324E08DDA007A682E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DDA224E08DDA007A682E /* HomeController.swift */; };
+		E107DDA524E09033007A682E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DDA424E09033007A682E /* Extensions.swift */; };
+		E107DDA724E090AC007A682E /* HomeNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DDA624E090AC007A682E /* HomeNavigationStack.swift */; };
+		E107DDA924E099C8007A682E /* BottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DDA824E099C8007A682E /* BottomControlsStackView.swift */; };
+		E107DDAB24E09EDA007A682E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107DDAA24E09EDA007A682E /* CardView.swift */; };
+		E15A576E24E7163A0068E6C3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A576D24E7163A0068E6C3 /* LoginController.swift */; };
+		E15A577024E716470068E6C3 /* Registration Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A576F24E716470068E6C3 /* Registration Controller.swift */; };
+		E15A577424E7813D0068E6C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A577324E7813D0068E6C3 /* CustomTextField.swift */; };
+		E15A577624E785790068E6C3 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A577524E785790068E6C3 /* AuthButton.swift */; };
+		E168B1B724E61CA7000ECC60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168B1B624E61CA7000ECC60 /* User.swift */; };
+		E168B1B924E62513000ECC60 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168B1B824E62513000ECC60 /* CardViewModel.swift */; };
+		E16F35C824E870BF00766324 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F35C724E870BF00766324 /* AuthenticationViewModel.swift */; };
+		E16F35CC24E88AAB00766324 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E16F35CB24E88AAB00766324 /* GoogleService-Info.plist */; };
+		E1ADF5C124E89AA8005DED5F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADF5C024E89AA8005DED5F /* AuthService.swift */; };
+		E1ADF5C324E89AB6005DED5F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADF5C224E89AB6005DED5F /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		007E806E3BB0FFAB4882501C /* Pods_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CD046D4AE996767410127 /* Pods-Tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.debug.xcconfig"; path = "Target Support Files/Pods-Tinder/Pods-Tinder.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F01A075A3AC3BD60EA2EEF /* Pods-Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.release.xcconfig"; path = "Target Support Files/Pods-Tinder/Pods-Tinder.release.xcconfig"; sourceTree = "<group>"; };
 		E107DD8224E08D2C007A682E /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E107DD8524E08D2C007A682E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E107DD8724E08D2C007A682E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E107DD8924E08D2C007A682E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E107DD8C24E08D2C007A682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E107DD8F24E08D2C007A682E /* Tinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tinder.xcdatamodel; sourceTree = "<group>"; };
 		E107DD9124E08D2F007A682E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E107DD9424E08D2F007A682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E107DD9624E08D2F007A682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E107DDA224E08DDA007A682E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E107DDA424E09033007A682E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
+		E107DDA624E090AC007A682E /* HomeNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationStack.swift; sourceTree = "<group>"; };
+		E107DDA824E099C8007A682E /* BottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlsStackView.swift; sourceTree = "<group>"; };
+		E107DDAA24E09EDA007A682E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E15A576D24E7163A0068E6C3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E15A576F24E716470068E6C3 /* Registration Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Registration Controller.swift"; sourceTree = "<group>"; };
+		E15A577324E7813D0068E6C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E15A577524E785790068E6C3 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		E168B1B624E61CA7000ECC60 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E168B1B824E62513000ECC60 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		E16F35C724E870BF00766324 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		E16F35CB24E88AAB00766324 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E1ADF5C024E89AA8005DED5F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E1ADF5C224E89AB6005DED5F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA681121BF1220C12BC5FFE /* Pods_Tinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		428180D2850D672AE89F5ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				007E806E3BB0FFAB4882501C /* Pods_Tinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BAA57509B28E0937044D99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				784CD046D4AE996767410127 /* Pods-Tinder.debug.xcconfig */,
+				B3F01A075A3AC3BD60EA2EEF /* Pods-Tinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E107DD7924E08D2C007A682E = {
 			isa = PBXGroup;
 			children = (
 				E107DD8424E08D2C007A682E /* Tinder */,
 				E107DD8324E08D2C007A682E /* Products */,
+				D4BAA57509B28E0937044D99 /* Pods */,
+				428180D2850D672AE89F5ADA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +110,78 @@
 		E107DD8424E08D2C007A682E /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				E107DDA124E08D6A007A682E /* Utilities */,
+				E107DDA024E08D62007A682E /* API */,
+				E107DD9F24E08D5D007A682E /* Controller */,
+				E107DD9E24E08D52007A682E /* ViewModel */,
+				E107DD9D24E08D4D007A682E /* Model */,
+				E107DD9C24E08D38007A682E /* View */,
 				E107DD8524E08D2C007A682E /* AppDelegate.swift */,
 				E107DD8724E08D2C007A682E /* SceneDelegate.swift */,
-				E107DD8924E08D2C007A682E /* ViewController.swift */,
 				E107DD8B24E08D2C007A682E /* Main.storyboard */,
 				E107DD9124E08D2F007A682E /* Assets.xcassets */,
 				E107DD9324E08D2F007A682E /* LaunchScreen.storyboard */,
 				E107DD9624E08D2F007A682E /* Info.plist */,
+				E16F35CB24E88AAB00766324 /* GoogleService-Info.plist */,
 				E107DD8E24E08D2C007A682E /* Tinder.xcdatamodeld */,
 			);
 			path = Tinder;
+			sourceTree = "<group>";
+		};
+		E107DD9C24E08D38007A682E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E107DDA624E090AC007A682E /* HomeNavigationStack.swift */,
+				E107DDA824E099C8007A682E /* BottomControlsStackView.swift */,
+				E107DDAA24E09EDA007A682E /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E107DD9D24E08D4D007A682E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E168B1B624E61CA7000ECC60 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E107DD9E24E08D52007A682E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E168B1B824E62513000ECC60 /* CardViewModel.swift */,
+				E16F35C724E870BF00766324 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E107DD9F24E08D5D007A682E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E107DDA224E08DDA007A682E /* HomeController.swift */,
+				E15A576D24E7163A0068E6C3 /* LoginController.swift */,
+				E15A576F24E716470068E6C3 /* Registration Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E107DDA024E08D62007A682E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E1ADF5C024E89AA8005DED5F /* AuthService.swift */,
+				E1ADF5C224E89AB6005DED5F /* Service.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E107DDA124E08D6A007A682E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E107DDA424E09033007A682E /* Extensions.swift */,
+				E15A577324E7813D0068E6C3 /* CustomTextField.swift */,
+				E15A577524E785790068E6C3 /* AuthButton.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E107DD9924E08D2F007A682E /* Build configuration list for PBXNativeTarget "Tinder" */;
 			buildPhases = (
+				BE0021E1D7D88F520DB57693 /* [CP] Check Pods Manifest.lock */,
 				E107DD7E24E08D2C007A682E /* Sources */,
 				E107DD7F24E08D2C007A682E /* Frameworks */,
 				E107DD8024E08D2C007A682E /* Resources */,
+				9AC97DEC1248EC9E3D53C634 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E107DD9524E08D2F007A682E /* LaunchScreen.storyboard in Resources */,
+				E16F35CC24E88AAB00766324 /* GoogleService-Info.plist in Resources */,
 				E107DD9224E08D2F007A682E /* Assets.xcassets in Resources */,
 				E107DD8D24E08D2C007A682E /* Main.storyboard in Resources */,
 			);
@@ -136,15 +253,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AC97DEC1248EC9E3D53C634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0021E1D7D88F520DB57693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E107DD7E24E08D2C007A682E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E107DD8A24E08D2C007A682E /* ViewController.swift in Sources */,
+				E15A577424E7813D0068E6C3 /* CustomTextField.swift in Sources */,
+				E15A577624E785790068E6C3 /* AuthButton.swift in Sources */,
+				E15A576E24E7163A0068E6C3 /* LoginController.swift in Sources */,
+				E107DDA524E09033007A682E /* Extensions.swift in Sources */,
+				E107DDA324E08DDA007A682E /* HomeController.swift in Sources */,
+				E16F35C824E870BF00766324 /* AuthenticationViewModel.swift in Sources */,
 				E107DD9024E08D2C007A682E /* Tinder.xcdatamodeld in Sources */,
+				E107DDA724E090AC007A682E /* HomeNavigationStack.swift in Sources */,
+				E168B1B924E62513000ECC60 /* CardViewModel.swift in Sources */,
 				E107DD8624E08D2C007A682E /* AppDelegate.swift in Sources */,
+				E168B1B724E61CA7000ECC60 /* User.swift in Sources */,
+				E1ADF5C324E89AB6005DED5F /* Service.swift in Sources */,
 				E107DD8824E08D2C007A682E /* SceneDelegate.swift in Sources */,
+				E107DDAB24E09EDA007A682E /* CardView.swift in Sources */,
+				E107DDA924E099C8007A682E /* BottomControlsStackView.swift in Sources */,
+				E15A577024E716470068E6C3 /* Registration Controller.swift in Sources */,
+				E1ADF5C124E89AA8005DED5F /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +458,7 @@
 		};
 		E107DD9A24E08D2F007A682E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784CD046D4AE996767410127 /* Pods-Tinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +477,7 @@
 		};
 		E107DD9B24E08D2F007A682E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F01A075A3AC3BD60EA2EEF /* Pods-Tinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
